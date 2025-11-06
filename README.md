@@ -23,15 +23,27 @@ This deliverable extends our initial Requirements Spec with:
 ## Repository Structure
 
 ```
+/Architecture
+  └── Data Management Strategy.docx  # Plan for Data Management Strategy section of SRS
 /docs
   └── SRS_v1.docx        # Deliverable 1: Requirements Specification
 /design
-  ├── architecture.png   # Software Architecture Diagram (to be added)
-  ├── uml_class.png      # UML Class Diagram (to be added)
-  └── sources/           # Editable diagram files (e.g., .drawio, .uml)
+  ├── UpdatedClassUML.png        # UML Diagram updated to current specs
+  ├── Updated_Arc_Diagram.png    # ARC Diagram updated to current specs
+  ├── architecture.png   # Software Architecture Diagram
+  ├── uml_class.png      # UML Class Diagram
+  └── sources/           # Editable diagram files (e.g., .drawio, .uml) - missing
 /deliverables
-  ├── SRS_v2.docx        # Full SRS including Design section (to be added)
-  └── SRS_v2.pdf         # Exported version for submission (to be added)
+  ├── SRS_v2.docx          # SRS Design v2
+  ├── SRS_v2.2.docx        # SRS Design v2.2
+  ├── SRS_v2.3.docx        # SRS Revision History v3.1
+  ├── SRS_v2.4.docx        # SRS Revision History v3.2
+  └── SRS_v3.3.docx        # SRS Current Design for Submission (Numbering updated to reflect document Revision History)
+/testplan
+  ├── SRS_v2.3.docx       # SRS RH v3.1 add Test Plan section
+  ├── SRS_v2.4.docx       # SRS RH v3.2 update diagrams
+  ├── TestPlan_Assignment3.docx     # Plans for Test Plan section of SRS
+  └── testCases.xlsx      # List of test cases for the Test Plan
 ```
 
 ## Team Responsibilities
